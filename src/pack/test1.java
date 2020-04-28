@@ -8,7 +8,7 @@ public class test1 {
         int hits = 0;
         while (true) {
 
-            System.out.print("movement ");
+            System.out.print("movement  ");
             Scanner moveInput = new Scanner(System.in);
             int movement = moveInput.nextInt();
             if (movement == 0) System.out.print("forward \n");
